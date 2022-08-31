@@ -14,7 +14,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Basic Creep-Toe App"),
+        title: Text("Creep-Toe Tracker"),
         //elevation: defaultTargetPlatform == TargetPlatform.iOS ? 0.0 : 5.0,
       ),
       body: cryptoWidget(),
